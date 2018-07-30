@@ -1,0 +1,110 @@
+/* monffee/adBanner.css */
+
+
+#adBanner{
+  position: relative; overflow: hidden;
+  width: 100%; height: calc(100% - 120px); 
+}
+
+#adBanner > #adBg {
+  width: 500%; height: 100%;
+}
+
+  #adBg > li {
+    float: left; width: 20%; height: 100%;
+    background-repeat: no-repeat; -webkit-background-size: cover;
+    background-size: cover; background-position: center;
+  }
+
+  #adBg > li:nth-child(1) {
+    background-image: url(../../../img/img/adBanner/slide_01.png);
+  }
+
+  #adBg > li:nth-child(2) {
+    background-image: url(../../../img/img/adBanner/slide_02.png);
+  }
+
+  #adBg > li:nth-child(3) {
+    background-image: url(../../../img/img/adBanner/slide_03.png);
+  }
+
+  #adBg > li:nth-child(4) {
+    background-image: url(../../../img/img/adBanner/slide_04.png);
+  }
+
+  #adBg > li:nth-child(5) {
+    background-image: url(../../../img/img/adBanner/slide_05.png);
+  }
+
+/* text area --------------------------------------------- */
+
+.text_area {
+  position: absolute; top: 0; left: 0;
+  width: 45%; height: 100%; background-color: rgba(164,51,0,0.5);
+}
+
+.area_wrap {
+  position: absolute; top: 50%; margin-top: -20%; right: 10%;
+  width: 50%; height: auto;
+}
+
+.area_wrap > h2 {
+  width: 100%; height: 114px; background-image: url(../../../img/img/monfee_big_logo.png);
+  -webkit-background-size: contain;
+  background-size: contain; background-repeat: no-repeat;
+  background-position: center;
+}
+
+.area_wrap > p {
+  color: #fff; text-align: justify;
+}
+
+/* arrow --------------------------------------------- */
+
+
+
+.arrow {
+  position: absolute; top: 50%; left: 50%; margin-top: -87px; margin-left: -45%;
+  width: 90%; height: 174px; 
+}
+
+.arrow > button {
+  width: 120px; font-size: 10rem; color: #49b9af;
+}
+
+.l_btn {
+  float: left;
+}
+
+.r_btn {
+  float: right;
+}
+
+
+/* indicator ------------------------------------------------- */
+
+.indicator {
+  position: absolute; bottom: 22px; right: 62px;
+  width: 360px; height: 40px;
+}
+
+.indicator > ul {
+  width: 100%; height: 100%;
+}
+
+.indicator > ul > li {
+  float: left;
+  width: 40px; height: 40px; margin-right: 40px;
+}
+
+.indicator > ul > li:last-child {
+  margin-right: 0;
+}
+
+.indicator > ul > li > a {
+  border-radius: 2rem; background-color: #fff;
+}
+
+.indicator > ul > li.active > a {
+  background-color: #a43300;
+}

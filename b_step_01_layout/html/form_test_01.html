@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<!-- form_test_01.html-->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- meta:vp -->
+  <meta name="viewport" 
+  content="width=device-width, user-scalable=no, 
+  initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!--import css-->
+  <!-- 다운로드 후 불러올 때 -->
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+  <!-- reset -->
+  <link rel="stylesheet" href="../css/base/reset.css" />
+  <link rel="stylesheet" href="../css/src/form_test_01.css" />
+  <!--favicon-->
+  <link rel="apple-touch-icon" href="../img/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png" />
+
+  <title>form test 01</title>
+</head>
+<body>
+  <div class="wrap">
+    <h1>form login 만들기</h1>
+    <form action="#" method="post">
+      <fieldset>
+        <legend>member login</legend>
+        <div class="in_form">
+          <label for="idName">
+            <i class="glyphicon glyphicon-user"></i>
+            <span class="hidden">사용자의 아이디를 입력하세요.</span>
+          </label>
+          <input type="text" value="" placeholder="Username"  id="idName" name="idName">
+          
+        </div>
+        <div class="in_form">
+          <label for="pwName">
+            <i class="glyphicon glyphicon-lock"></i>
+            <span class="hidden">사용자의 비밀번호를 입력하세요.</span>
+          </label>
+          <input type="password" value="" placeholder="********" id="pwName" name="pwName">
+          
+        </div>
+        <input type="submit" id="login" class="in_form" value="login" />
+      </fieldset>
+    </form>
+  </div>
+
+  <!--javascript-->
+  <script src="../js/base/jquery-3.3.1.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+    <!-- 다운로드 후 BootStrapk -->
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+</body>
+</html>

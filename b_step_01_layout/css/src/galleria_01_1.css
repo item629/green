@@ -1,0 +1,32 @@
+/* galleria_01_1.css */
+
+/* color 
+   black1 : #161616
+   black2 : #292929
+   black2 : #0f0f0f
+   white : #ffffff
+   line : 1px solid #e0e0e0
+*/
+
+@import url("./galleria/wrap.css");
+
+@import url("./galleria/headBox.css");
+
+@import url("./galleria/adBox.css");
+
+@import url("./galleria/noticeBox.css");
+
+@import url("./galleria/showBox.css");
+
+@import url("./galleria/styleBox.css");
+
+@import url("./galleria/footBox.css");
+
+
+/*
+css 문서 내에서 외부 파일 불러오는 방법 'import url()'
+사실상 'import url()' 기능은 사용하지 않는다.
+병렬방식이 아닌 직렬방식이므로 속도가 사실상 저하되는 방법이다
+알아야하는 이유 : 차후, 추가될 기능(언어) (scss)sass의 방식을 이해하기 위해서이다
+html 문서상으로 불러왔을 경우 가독성이 다소 떨어지기 대문에 사용하기도 한다.
+*/

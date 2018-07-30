@@ -1,0 +1,49 @@
+/* infoBox.css */
+
+
+/* color
+  gray : #cacaca;
+*/
+
+#infoBox{
+  box-sizing: border-box; padding-top: 6.25rem; width: 100%; height: 43.375rem;
+}
+
+#in_fo {
+  margin: auto; 
+  width: 58.75rem; height: 30.8125rem;
+  background-color: #fff;
+}
+
+#in_fo > ul {
+  width: 100%; height: 100%;
+  background-image: url("../../../img/sajo_img/info_image.png");
+}
+
+#in_fo li {
+  margin-right: 0.5625rem;
+  float: left; box-sizing: border-box; border: 1px solid #cacaca;
+  width: 9.3125rem; height: 9.875rem;
+}
+#in_fo > ul > li:first-child {
+  width: 19.3125rem; height: 20.3125rem;
+}
+#in_fo > ul > li:nth-child(3) {
+  margin-right: 0.4375rem;
+}
+#in_fo > ul > li:nth-child(6) {
+  margin-right: 0.4375rem;
+}
+#in_fo > ul > li:nth-child(7) {
+  margin-right: 0.625rem;
+}
+#in_fo > ul > li:nth-child(8) {
+  margin-top: -10.4375rem; margin-right: 0;
+  width: 9.3125rem; height: 20.3125rem;
+}
+
+#in_fo > ul > li:nth-child(10) {margin-right: 0.6875rem;}
+#in_fo > ul > li:nth-child(12) {margin-right: 0.4375rem;}
+#in_fo > ul > li:nth-child(14) {margin-right: 0;}
+.rig {margin-bottom: 0.5625rem;}
+.under {margin-top: 0.625rem;}

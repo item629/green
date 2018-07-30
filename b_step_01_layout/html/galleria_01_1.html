@@ -1,0 +1,158 @@
+<!DOCTYPE html>
+<!-- galleria_01_1.html-->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- meta:vp -->
+  <meta name="viewport" 
+  content="width=device-width, user-scalable=no, 
+  initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!--import css-->
+  <link rel="stylesheet" href="../css/base/reset.css" />
+  <link rel="stylesheet" href="../css/src/galleria_01_1.css" />
+<!--   <link rel="stylesheet" href="../css/src/galleria/wrap.css" />
+  <link rel="stylesheet" href="../css/src/galleria/headBox.css" />
+  <link rel="stylesheet" href="../css/src/galleria/adBox.css" />
+  <link rel="stylesheet" href="../css/src/galleria/noticeBox.css" />
+  <link rel="stylesheet" href="../css/src/galleria/showBox.css" />
+  <link rel="stylesheet" href="../css/src/galleria/styleBox.css" />
+  <link rel="stylesheet" href="../css/src/galleria/footBox.css" /> -->
+  <!--favicon-->
+  <link rel="apple-touch-icon" href="../img/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png" />
+
+  <title>galleria</title>
+</head>
+<body>
+  <!-- layout -->
+  <div id="wrap">
+    <header id="headBox">
+      <h1 class="hidden_wrap">
+        <a href="#"><span> galleria department </span></a>
+      </h1>
+      <nav id="gnb">
+        <h2 class="hidden">global navigation</h2>
+        <ul class="hidden_wrap">
+          <li>
+            <a href="#"><span>매장 정보</span></a>
+            <ul class="sub_nav">
+              <li>
+                <a href="#">쇼핑뉴스</a>
+              </li>
+              <li>
+                <a href="#">실시간 인기 브랜드</a>
+              </li>
+              <li>
+                <a href="#">층별안내</a>
+              </li>
+              <li>
+                <a href="#">오시는 길</a>
+              </li>
+              <li>
+                <a href="#">다른 지점 안내</a>
+              </li>
+              <li>
+                <a href="#">갤러리아 먼세점</a>
+              </li>
+            </ul> <!-- // #sub_nav -->
+          </li>
+          <li>
+            <a href="#"><span>상품 보기</span></a>
+          </li>
+          <li>
+            <a href="#"><span>스타일 제안</span></a>
+          </li>
+          <li>
+            <a href="#"><span>카드 및 마일리지</span></a>
+          </li>
+          <li>
+            <a href="#"><span>고객 맞춤 서비스</span></a>
+          </li>
+        </ul>
+      </nav> <!-- // #gnb -->
+  
+      <nav id="unb">
+        <h2 class="hidden">utility navigation</h2>
+        <ul class="hidden_wrap">
+          <li>
+            <a href="#"><span>log in</span></a>
+          </li>
+          <li>
+            <a href="#"><span>join</span></a>
+          </li>
+          <li>
+            <a href="#"><span>sitemap</span></a>
+          </li>
+          <li>
+            <a href="#" tabindex="1"><span>korean</span></a>
+            <!-- tabindex를 사용하면 숫자의 순서대로 포커스가 잡히게 된다 -->
+          </li>
+        </ul>
+        <button type="button">
+          <span class="hidden">search button</span>
+        </button>
+      </nav> <!-- // #unb -->
+    </header> <!-- // #headBox -->
+
+    <section id="adBox">
+      <h2 class="hidden">갤러리아 메인 광고</h2>
+      <header class="indicator">
+        <h3 class="hidden">indicator</h3>
+        <div class="banner_play_btn hidden_wrap">
+          <button type="button" class="play active"><span>재생</span></button>
+          <button type="button" class="pause"><span>정지</span></button>
+        </div>
+        <div class="banner_arrow_btn hidden_wrap">
+          <button type="button" class="prev_btn">
+            <span>이전 광고보기</span>
+          </button> 
+          <button type="button" class="next_btn">
+            <span>다음 광고 보기</span>
+          </button> 
+        </div>
+        <ul class="indi_selector_btn hidden_wrap">
+          <li><a href="#ad1"><span>해당광고의 내용 간단 설명</span></a></li>
+          <li><a href="#ad2"><span>해당광고의 내용 간단 설명</span></a></li>
+          <li><a href="#ad3"><span>해당광고의 내용 간단 설명</span></a></li>
+          <li><a href="#ad4"><span>해당광고의 내용 간단 설명</span></a></li>
+        </ul>
+      </header> <!-- // #indicator -->
+      <article class="ad_banner">
+        <h3 class="hidden">banner content</h3>
+        <div id="#ad1" class="banner_01"><h4 class="hidden">banner01</h4></div>
+        <div id="#ad2" class="banner_02"><h4 class="hidden">banner02</h4></div>
+        <div id="#ad3" class="banner_03"><h4 class="hidden">banner03</h4></div>
+        <div id="#ad4" class="banner_04"><h4 class="hidden">banner04</h4></div>
+        <!-- 광고 배너의 역할을 하는 것들은 nth-child가 아닌 class를 사용하는게 좋다 -->
+      </article> <!-- // #ad_banner -->
+      <div class="scroll_view">
+        <!-- 스크롤 배경이미지 첨부, 지우지 마세용 -->
+      </div>
+    </section> <!-- // #adBox -->
+
+    <aside id="noticeBox">
+      <h2><span class="hidden">공지사항</span></h2>
+    </aside> <!-- // #noticeBox -->
+
+    <article id="showBox">
+      <h2><span class="hidden">인기 및 추천상품</span></h2>
+    </article> <!-- // #showBox -->
+
+    <article id="styleBox">
+      <h2><span class="hidden">품목별 신규상품</span></h2>
+      <div class="style_area"></div>
+    </article> <!-- // #styleBox -->
+
+    <footer id="footBox">
+      <h2 class="hidden">갤러리아 사이트 정보</h2>
+      <div class="footer_area"></div>
+    </footer> <!-- // #footBox -->
+  </div>
+
+  <!--javascript-->
+  <script src="../js/base/jquery-3.3.1.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+  <script src="../js/src/galleria_01.js"></script>
+</body>
+</html>

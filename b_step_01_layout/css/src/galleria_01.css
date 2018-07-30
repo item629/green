@@ -1,0 +1,67 @@
+/* galleria_01.css */
+
+
+#wrap {margin: auto; width: 100%; height: auto; min-width: 60rem; min-height: 31.25rem; background-color: #aaa;}
+#headBox {position: fixed; z-index: 1000; width: 100%; height: 4.25rem; background-color: #222;}
+#headBox > h1 {float: left; width: 9.375rem; height: 100%; background-color: #000;}
+  #gnb {float: left; width: 50.3125rem; height: 100%; background-color: #222;}
+  #gnb > ul {width: 100%; height: 100%;}
+  #gnb > ul > li {float: left; width: 10.0625rem; height: 100%;}  
+  #gnb > ul > li > a, #unb > ul > li > a {display: block;
+                      background-repeat: no-repeat;
+                      background-size: normal;
+                      width: 100%; height: 100%;
+                      }
+  #gnb > ul > li:nth-child(1) > a {background-image: url("../../img/add_text/store_info.png");}
+  #gnb > ul > li:nth-child(1) > a:hover {background-image: url("../../img/add_text/store_info_on.png");}
+  #gnb > ul > li:nth-child(2) > a {background-image: url("../../img/add_text/show_window.png");}
+  #gnb > ul > li:nth-child(2) > a:hover {background-image: url("../../img/add_text/show_window_info.png");}
+  #gnb > ul > li:nth-child(3) > a {background-image: url("../../img/add_text/style.png");}
+  #gnb > ul > li:nth-child(3) > a:hover {background-image: url("../../img/add_text/style_on.png");}
+  #gnb > ul > li:nth-child(4) > a {background-image: url("../../img/add_text/mileage.png");}
+  #gnb > ul > li:nth-child(4) > a:hover {background-image: url("../../img/add_text/mileage_on.png");}
+  #gnb > ul > li:nth-child(5) > a {background-image: url("../../img/add_text/service.png");}
+  #gnb > ul > li:nth-child(5) > a:hover {background-image: url("../../img/add_text/service_on.png");}
+
+
+/* -------------------------------------------------- */
+
+  #unb {float: right; width: 15.5625rem; height: 100%; background-color: #222;}
+  #unb > ul {width: 100%; height: 100%;}
+  #unb > ul > li {margin-right: 0.0625rem; float: left; height: 100%;}
+  #unb > ul > li:after, #unb > ul > li::after {
+    background-repeat: no-repeat;
+    background-position: 0 100%;
+    background-image: url("../../img/add_text/vertical.png")} 
+  #unb > ul > li:first-child {width: 3.1875rem;}
+  #unb > ul > li:nth-child(2){width: 2.8125rem;}
+  #unb > ul > li:nth-child(3){width: 3.625rem;}
+  #unb > ul > li:nth-child(4){width: 3.3125rem;}
+  #unb > ul > li:last-child {width: 2.3125rem;}
+
+  #unb > ul > li:nth-child(1) > a {background-image: url("../../img/add_text/login.png");}
+  #unb > ul > li:nth-child(1) > a:hover {background-image: url("../../img/add_text/login_on.png");}
+  #unb > ul > li:nth-child(2) > a {background-image: url("../../img/add_text/join.png");}
+  #unb > ul > li:nth-child(2) > a:hover {background-image: url("../../img/add_text/join_on.png");}
+  #unb > ul > li:nth-child(3) > a {background-image: url("../../img/add_text/sitemap.png");}
+  #unb > ul > li:nth-child(3) > a:hover {background-image: url("../../img/add_text/sitemap_on.png");}
+  #unb > ul > li:nth-child(4) > a {background-image: url("../../img/add_text/kor.png");}
+  #unb > ul > li:nth-child(4) > a:hover {background-image: url("../../img/add_text/kor_on.png");}
+  #unb > ul > li:nth-child(5) > a {background-image: url("../../img/add_text/search.png");}
+  #unb > ul > li:nth-child(5) > a:hover {background-image: url("../../img/add_text/search_on.png");}
+
+  /* -------------------------------------------------- */
+
+  #adBox {position: relative; padding-top: 4.25rem; width: 100%; height: 40.625rem; background-color: #aaa;}
+    #bigBox {width: 100%; height: 40.625rem;}
+      #bigBox > ul {width: 100%; height: 100%;}
+/*      #bigBox > ul > li:nth-child(1) {float: left; z-index: 0; background-image: url(../../img/add_text/11.jpg);}
+      #bigBox > ul > li:nth-child(2) {float: left; z-index: -1; background-image: url(../../img/add_text/22.jpg);}
+      #bigBox > ul > li:nth-child(3) {float: left; z-index: -2; background-image: url(../../img/add_text/33.jpg);}
+      #bigBox > ul > li:nth-child(4) {float: left; z-index: -3; background-image: url(../../img/add_text/44.jpg);}*/
+      #indicator {position: absolute; bottom: 1.5625rem; right: 1.375rem; 
+                  width: 8.375rem; height: 1.5625rem; background-image: url(../../img/add_text/indicator_box.png);}
+      #scroll {position: absolute; bottom: 0; left: 50%; margin-left: -1.9375rem; width: 3.875rem; height: 8.125rem;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-image: url(../../img/add_text/scroll_info.png);}

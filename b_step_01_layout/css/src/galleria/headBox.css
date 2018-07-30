@@ -1,0 +1,132 @@
+/* headBox.css */
+
+/* color
+   line: 1px solid #363636;
+*/
+
+
+#headBox {
+  position: fixed; top:0 ; left: 0; z-index: 500;
+  box-sizing: border-box; padding: 0 0.625rem;
+  width: 100%; height: 4.25rem; background-color: #161616;}
+
+  h1 {
+    box-sizing: border-box;
+    border-right:0.0625rem solid #363636;
+    float: left; width: 9.375rem; height: inherit;}
+
+  h1>a {
+    background-image: url("../../../img/galleria_img/headBox/logo.png");}
+
+/* gnb --------------------------------------------------*/
+
+  #gnb {
+    float: left; width: 50.3125rem; height: inherit;}
+  #gnb > ul {
+    width: 100%; height: inherit;}
+  #gnb > ul > li {
+    border-right: 0.0625rem solid #363636;
+    width: 10rem;
+    float: left; height: inherit;}
+
+  #gnb > ul > li > a {
+    background-image: url("../../../img/galleria_img/headBox/gnb_area.png");
+    background-color: #161616;}
+  #gnb > ul > li > a:hover {
+    background-image: url("../../../img/galleria_img/headBox/gnb_on.png");
+    background-color: #fff;}
+  #gnb > ul > li > a:focus {
+    box-sizing: border-box; border-bottom: 0.1875rem solid #fff;}
+
+  #gnb > ul > li:nth-child(1) > a {
+    background-position: 2.625rem center;}
+  #gnb > ul > li:nth-child(2) > a {
+    background-position: -7.4375rem center;}
+  #gnb > ul > li:nth-child(3) > a {
+    background-position: -17.5rem center;}
+  #gnb > ul > li:nth-child(4) > a {
+    background-position: -27.5625rem center;}
+  #gnb > ul > li:nth-child(5) > a {
+    background-position: -37.625rem center;}
+
+  #gnb > ul > li:hover > a {
+    background-image: url('../../../img/galleria_img/headBox/gnb_on.png');
+  background-color: #fff;}
+  #gnb > ul > li:hover > .sub_nav {
+    display: block;}
+/*  #gnb > ul > li> a:hover + .sub_nav {
+  display: block;}*/
+
+/* gnb_하위 내용 */
+  .sub_nav {
+    display: none;
+    padding: 0.25rem; /*border: 1px solid #363636; border-top: 0; border-bottom: 0;*/ box-sizing: border-box;
+    width: 100%; height: auto; background-color: #fff;}
+  .sub_nav > li{
+    width: 100%; height: auto; margin-bottom: 0.1875rem;
+    font-size: 0.85rem; color: #333; text-align: center;}
+  .sub_nav > li > a {
+    position: relative;}
+  .sub_nav > li > a:hover {
+    font-weight: bold; font-size: 1rem;
+    border-bottom: 0.0625rem solid #333;}
+  .sub_nav > li > a:focus {
+    color: #0af; outline: 0;}
+  .sub_nav > li > a::before, 
+  .sub_nav > li > a:before {
+    content: " "; display: block; position: absolute;
+    bottom: -0.125rem; left: 50%; border-bottom: 0.0625rem solid #333; z-index: 100;
+    width: 0; height: 0; transition: all 300ms ease;}
+
+/*  .sub_nav > li > a:hover::before, .sub_nav > li > a:hover:before {
+    width: 100%; left: 0;}*/
+  .sub_nav > li > a:focus::before, 
+  .sub_nav > li > a:focus:before {
+  width: 100%; left: 0;}
+
+
+
+/* unb --------------------------------------------------*/
+
+  #unb {
+    float: right;
+    width: 15.625rem; height: inherit;}
+  #unb > ul {
+    float: left;
+    width: 13.3125rem; height: inherit;}
+  #unb > ul > li {
+    box-sizing: border-box; padding: 0 0.3125rem;
+    float: left; height: inherit;
+    background-image: url("../../../img/galleria_img/headBox/unb_vertical.png");
+    background-repeat: no-repeat;
+    background-position: right 1.8125rem;}
+  #unb > ul > li:nth-child(1) {
+    width: 3.375rem;}
+  #unb > ul > li:nth-child(2) {
+    width: 2.875rem;}
+  #unb > ul > li:nth-child(3) {
+    width: 3.6875rem;}
+  #unb > ul > li:nth-child(4) {
+    width: 3.375rem;}
+
+  #unb > ul > li:nth-child(1) > a {
+    background-image: url("../../../img/galleria_img/headBox/login.png");}
+  #unb > ul > li:nth-child(1) > a:hover {
+    background-image: url("../../../img/galleria_img/headBox/login_on.png");}
+  #unb > ul > li:nth-child(2) > a {
+    background-image: url("../../../img/galleria_img/headBox/join.png");}
+  #unb > ul > li:nth-child(2) > a:hover {
+    background-image: url("../../../img/galleria_img/headBox/join_on.png");}
+  #unb > ul > li:nth-child(3) > a {
+    background-image: url("../../../img/galleria_img/headBox/sitemap.png");}
+  #unb > ul > li:nth-child(3) > a:hover {
+    background-image: url("../../../img/galleria_img/headBox/sitemap_on.png");}
+  #unb > ul > li:nth-child(4) > a {
+    background-image: url("../../../img/galleria_img/headBox/korean.png");}
+
+  #unb > button {
+    float: right;
+    width: 1.875rem; height: inherit;
+    background-image: url(../../../img//galleria_img/headBox/search_btn.png);
+    background-repeat: no-repeat;
+    background-position: center;}

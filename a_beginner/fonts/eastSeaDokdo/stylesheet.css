@@ -1,0 +1,12 @@
+@font-face {
+    font-family: 'East Sea Dokdo';
+    src: url('hinted-EastSeaDokdo-Regular.eot');
+    src: url('hinted-EastSeaDokdo-Regular.eot?#iefix') format('embedded-opentype'),
+        url('hinted-EastSeaDokdo-Regular.woff2') format('woff2'),
+        url('hinted-EastSeaDokdo-Regular.woff') format('woff'),
+        url('hinted-EastSeaDokdo-Regular.ttf') format('truetype'),
+        url('hinted-EastSeaDokdo-Regular.svg#EastSeaDokdo-Regular') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+

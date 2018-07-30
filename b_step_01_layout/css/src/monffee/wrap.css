@@ -1,0 +1,11 @@
+/* monffee/wrap.css */
+
+#wrap {
+  margin: auto;
+  width: 100%; min-width: 1024px; height: 100%;
+}
+
+
+.our_monffee {
+  width: 100%; height: auto;
+}

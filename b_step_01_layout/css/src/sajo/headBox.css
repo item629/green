@@ -1,0 +1,95 @@
+/* headBox.css */
+
+/* color
+  blue : #08164e;
+  white : #fff;
+*/
+
+#headBox {
+  position: fixed; top: 0; left: 0; z-index: 1000;
+  width: 100%; height: 8.75rem;
+}
+
+
+/* 헤더 상단에 있는 네비게이션 */
+.up {
+  position: relative;
+  width: 100%; height: 2.5rem;
+  background-color: #08164e;
+}
+
+#unb {
+  position: absolute; top: 0; left: 50%; margin-left: 3.625rem;
+  width: 25.75rem; height: 100%;
+}
+  
+#unb > ul {
+  width: 100%; height: 100%;
+  background-image: url("../../../img/sajo_img/unb.png")
+}
+#unb > ul > li {
+  float: left; width: 6.4375rem; height: 100%;
+}
+  
+
+
+/* 헤더 하단에 있는 네비게이션 */
+.down {
+  position: relative;
+  width: 100%; height: 6.25rem;
+  background-color: #fff; 
+}
+
+.down > h1 {
+  position: absolute; top: 0; left: 50%; margin-left: -29.5625rem; 
+  width: 8.125rem; height: 100%;
+  background-image: url("../../../img/sajo_img/h1.png");
+  background-position: 0 1.375rem;
+  background-repeat: no-repeat;
+}
+
+#gnb {
+  position: absolute; top: 0; left: 50%; margin-left: -19.375rem;
+  width: 36.25rem; height: 100%;
+}
+
+#gnb > ul{
+  width: 100%; height: 100%;
+  background-image: url("../../../img/sajo_img/gnb.png");
+  background-position: 0 2.0625rem;
+  background-repeat: no-repeat;
+}
+
+#gnb > ul > li {
+  float: left; margin-right: 2.125rem; height: 100%; width: 5.0625rem; 
+}
+
+#gnb > ul > li:nth-child(1) {
+  margin-left: 0.875rem; margin-right: 1.625rem; width: 6.0625rem;
+}
+#gnb > ul > li:last-child {
+  margin-right: 0;
+}
+
+
+/* sub_nav */
+
+#sub_nav {
+  position: absolute; top: 2.0625rem; left: 50%; margin-left: 19.4375rem;
+  width: 7.375rem; height: 2.25rem;
+  background-color: #999;
+}
+
+#sub_nav > ul {
+  width: 100%; height: 100%;
+  background-image: url("../../../img/sajo_img/site_map.png");
+  background-repeat: no-repeat;
+}
+
+#sub_nav > ul > li {
+  float: left; margin-right: 0.3125rem;
+  width: 2.25rem; height: 2.25rem;
+  border-radius: 1rem;
+}
+
+#sub_nav > ul > li:last-child {margin-right: 0;}

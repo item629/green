@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<!-- bmu_landing.html-->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- meta:vp -->
+  <meta name="viewport" 
+  content="width=device-width, user-scalable=no, 
+  initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!--import css-->
+  <!-- CDN으로 불러올 때 합쳐지고 최소화된 최신 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <!-- 부가적인 테마 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  <!-- reset -->
+  <link rel="stylesheet" href="../css/base/reset.css" />
+  <link rel="stylesheet" href="../css/src/bmu_landing.css" />
+  <!--favicon-->
+  <link rel="apple-touch-icon" href="../img/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png" />
+
+  <title>bmu landing 해보기</title>
+</head>
+<body>
+  <div id="wrap">
+    <h1>bmu landing 해보기</h1>
+    <div id="formBox">
+      <form action="" method="get">
+        <fieldset>
+          <legend>Awesome freelancers at the right price</legend>
+          <div class="first_wrap">
+              <select name="category" id="category">
+                <option>category</option>
+                  <optgroup label="category">
+                    <option value="category01">category01</option>
+                    <option value="category02">category02</option>
+                    <option value="category03">category03</option>
+                    <option value="category04">category04</option>
+                    <option value="category05">category05</option>
+                    <option value="category06">category06</option>
+                    <option value="category07">category07</option>
+                    <option value="category08">category08</option>
+                    <option value="category09">category09</option>
+                    <option value="category10">category10</option>
+              </select>
+  
+              <select name="subcategory" id="subcategory">
+                <option>subcategory</option>
+                  <optgroup label="subcategory">
+                    <option value="subcategory01">subcategory01</option>
+                    <option value="subcategory02">subcategory02</option>
+                    <option value="subcategory03">subcategory03</option>
+                    <option value="subcategory04">subcategory04</option>
+                    <option value="subcategory05">subcategory05</option>
+                    <option value="subcategory06">subcategory06</option>
+                    <option value="subcategory07">subcategory07</option>
+                    <option value="subcategory08">subcategory08</option>
+                    <option value="subcategory09">subcategory09</option>
+                    <option value="subcategory10">subcategory10</option>
+              </select>
+  
+            <input type="submit" id="find" class="find" value="find a freelancer" /> <!-- // #find -->
+          </div>
+
+          <div class="checkBox">
+            <input type="checkbox" value="Accepts Bitcoin" id="Accepts Bitcoin" name="find" />
+            <label for="Accepts Bitcoin"> Accepts Bitcoin </label>
+            <input type="checkbox" value="Featured" id="Featured" name="find" />
+            <label for="Featured"> Featured </label>
+            <input type="checkbox" value="Endorsed" id="Endorsed" name="find" />
+            <label for="Endorsed"> Endorsed </label>
+            <input type="checkbox" value="Popular" id="Popular" name="find" />
+            <label for="Popular"> Popular </label>
+          </div><!-- // #checkbox -->
+
+          <div class="how">
+            <input type="button" value="How it works" id="how" />
+            <i class="glyphicon glyphicon-chevron-right"></i>
+          </div> <!-- // #how -->
+        </fieldset>
+      </form>
+    </div>
+  </div>
+
+  <!--javascript-->
+  <script src="../js/base/jquery-3.3.1.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+  <script src="../js/src/bmu_landing.js"></script>
+    <!-- CDN BootStrapk -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,97 @@
+<!DOCTYPE html>
+<!-- quotation_01.html-->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- meta:vp -->
+  <meta name="viewport" 
+  content="width=device-width, user-scalable=no, 
+  initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- reset -->
+  <link rel="stylesheet" href="../css/base/reset.css" />
+  <link rel="stylesheet" href="../css/src/quotation_01.css" />
+  <!--favicon-->
+  <link rel="apple-touch-icon" href="../img/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png" />
+
+  <title>본인인증서비스</title>
+</head>
+<body>
+  <div id="wrap">
+    <h1>quotation</h1>
+    <div class="quotation">
+      <h2>본인인증서비스</h2>
+      <h3>휴대폰 인증</h3>
+      <p>입력하시는 정보는 암호화 처리 되어지며, <br /> 어떠한 비용도 발생하지 않습니다.</p>
+      <!-- 인증영역 -->
+      <form action="#" method="post">
+        <fieldset>
+          <legend class="hidden">번호 확인영역</legend>
+          <div class="tel clearfix">
+            <dl class="number clearfix">
+              <dt>
+                <label for="firstNum">휴대폰 번호
+                  <span class="hidden">번호를 입력하는 곳입니다.</span>
+                </label>
+              </dt>
+              <dd class="first">
+                <input type="text" id="firstNum" name="firstNum" value=""
+                placeholder="국번" required="required" maxlength="3" />
+                <label for="firstNum" class="hidden">
+                  사용하고 계신 전화번호 앞자리 세자리를 입력하세요.
+                </label>
+              </dd>
+              <dd>
+                <input type="text" id="middleNum" name="middleNum" value=""
+                placeholder="앞자리" required="required" maxlength="4" />
+                <label for="middleNum" class="hidden">
+                  사용하고 계신 전화번호 가운데자리 셋 또는 네자리를 입력하세요.
+                </label>                
+              </dd>
+              <dd>
+                <input type="text" id="lastNum" name="lastNum" value=""
+                placeholder="뒷자리" required="required" maxlength="4" />
+                <label for="lastNum" class="hidden">
+                  사용하고 계신 전화번호 마지막 네자리를 입력하세요.
+                </label>                
+              </dd>
+            </dl>
+
+            <dl class="telecom clearfix">
+              <dt><label for="">이동 통신사</label></dt>
+              <dd>
+                <input type="radio" id="skt" name="telecom" value="skt" required />
+                <label for="skt"> SKt<span class="hidden">elecom</span> </label>
+              </dd>
+              <dd>
+                <input type="radio" id="kt" name="telecom" value="kt" required />
+                <label for="kt"> KT<span class="hidden">telecom</span> </label>                
+              </dd>
+              <dd>
+                <input type="radio" id="lg" name="telecom" value="lg" required />
+                <label for="lg"> lg U+<span class="hidden">plus telecom</span> </label>                   
+              </dd>
+            </dl>
+          </div> <!-- // #tel -->
+
+          <p class="check">
+            <input type="checkbox" id="ck" name="ck" value="정보활용 동의" />
+            <label for="ck">개인정보 제공 및 활용에 동의합니다.</label>
+          </p> <!-- // #check -->
+        </fieldset> <!-- // #fieldset -->
+
+        <fieldset>
+          <legend class="hidden">확인 및 취소</legend>
+          <input type="submit" id="ok" value="확인" />
+          <input type="reset" id="reset" value="취소" />
+        </fieldset> <!-- // #fieldset --> 
+      </form>
+    </div> <!-- // #quotation -->
+  </div> <!-- // #wrap -->
+
+  <!--javascript-->
+  <script src="../js/base/jquery-3.3.1.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+</body>
+</html>

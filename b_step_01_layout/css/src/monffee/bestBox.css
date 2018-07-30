@@ -1,0 +1,99 @@
+/* monffee/bestBox.css */
+
+#bestBox {
+  margin: auto; width: 1024px; height: 1080px;
+  box-sizing: border-box; padding-left: 42px;
+}
+
+#bestBox > h2 {
+  margin-top: 190px; margin-bottom: 36px;
+  width: 246px; height: 34px; font-size: 2.4rem; color: #a43300; font-weight: bold;
+  border-bottom: 2px solid #a43300; line-height: 34px;
+
+}
+
+#best_list {
+  width: 940px; height: 854px;
+}
+
+#best_list > li {
+  float: left; margin-right: 20px; margin-bottom: 65px;
+  width: 220px; height: 394px; 
+}
+
+#best_list > li:nth-child(4n) {
+  margin-right: 0;
+}
+
+#best_list > li.non_mb {
+  margin-bottom: 0;
+}
+
+#best_list > li > a {
+  width: 100%; height: 100%;
+}
+
+#best_list > li > div {
+  position: relative;
+  width: 100%; height: 260px; 
+  background-repeat: no-repeat; background-position: center;
+}
+
+#best_list > li > div > a {
+  display: block; width: 100%; height: 100%;
+}
+
+.best_img1 {
+  background-image: url(../../../img/img/issue/issue_icon_01.png);
+}
+.best_img2 {
+  background-image: url(../../../img/img/issue/issue_icon_02.png);
+}
+.best_img3 {
+  background-image: url(../../../img/img/new_menu/menu_02.png);
+}
+.best_img4{
+  background-image: url(../../../img/img/new_menu/menu_03.png);
+}
+.best_img5{
+  background-image: url(../../../img/img/new_menu/menu_04.png);
+}
+.best_img6 {
+  background-image: url(../../../img/img/new_menu/menu_05.png);
+}
+.best_img7 {
+  background-image: url(../../../img/img/new_menu/menu_07.png);
+}
+.best_img8{
+  background-image: url(../../../img/img/new_menu/default_menu.png);
+}
+
+#best_list > li > div > a:hover,
+#best_list > li > div > a:focus {
+  background-color: rgba(164,51,0,0.5);
+  background-image: url(../../../img/img/new_menu/menu_on.png);
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+#best_list > li > div > a > span {
+  display: none;
+}
+
+#best_list > li > div > a:hover > span,
+#best_list > li > div > a:focus > span {
+  display: block;
+  position: absolute; bottom: 46px; left: 50%; margin-left: -44px;
+  width: 88px; color: #fff; font-size: 0.85rem;
+}
+
+
+
+#best_list > li dl {
+  box-sizing: border-box; padding: 18px 26px 0;
+  font-size: 0.825rem;
+}
+
+#best_list > li dt {
+  font-size: 1.5rem; font-weight: bold;
+}

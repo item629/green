@@ -1,0 +1,86 @@
+
+
+.wrap {
+  margin: auto; position: relative;
+  width: 1280px; height: 1280px;
+  background-color: #dfdfdf;
+}
+
+.login {
+  position: absolute; top: 50%; left: 50%;
+  margin-left: -401px; margin-top: -304px;
+  width: 802px; height: 608px; background-color: #555;
+}
+
+
+.box > legend {
+  position: absolute; top: -59px; left: 50%; margin-left: -324px;
+  width: 648px; height: 118px;
+  background-color: #ccc; font-weight: bold;
+  text-transform: uppercase;
+  font-family: sans-serif; font-size: 4rem; line-height: 118px;
+  text-align: center;
+}
+
+.box input {
+  width: 590px; height: 100px;
+  font-size: 2rem; border: 0;
+}
+
+/* --------------------------------------------------- */
+#idBox {
+  margin: auto; margin-top: 124px;
+  width: 690px; height: 100px;
+}
+
+#idBox > div {
+  float: left;
+}
+
+  .idcon {
+    display: block;
+    width: 100px; height: 100px;
+    text-align: center;  font-size: 9rem;
+    background-color: #fff;
+  }
+
+  .idcon_1 {
+    width: 590px; height: 100px;
+    background-color: #dfdfdf;
+  }
+
+  /* ------------------- */
+
+  #pwBox {
+  margin: auto; margin-top: 40px;
+  width: 690px; height: 100px;
+}
+
+#pwBox > div {
+  float: left;
+}
+
+  .pwcon {
+    display: block;
+    width: 100px; height: 100px;
+    text-align: center; font-size: 9rem;
+    background-color: #fff;
+  }
+
+  .pwcon_1 {
+    width: 590px; height: 100px;
+  }
+
+/* ------------------------------ */
+
+  .btn {
+    margin-left: 56px;
+    width: 690px; height: 100px; margin-top: 40px;
+    background-color: #ccc;
+  }
+
+  .btn > span {
+    width: 100%; height: 100%;
+    text-align: center; font-size: 3rem;
+    color: #fff; font-weight: bold;
+  }

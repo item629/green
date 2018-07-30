@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<!-- login_01.html-->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- meta:vp -->
+  <meta name="viewport" 
+  content="width=device-width, user-scalable=no, 
+  initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!--import css-->
+  <!-- fontawesome -->
+  <link rel="stylesheet" href="../fontawesome/css/all.css">
+  <!-- reset -->
+  <link rel="stylesheet" href="../css/base/reset.css" />
+  <link rel="stylesheet" href="../css/src/login_01.css" />
+  <!--favicon-->
+  <link rel="apple-touch-icon" href="../img/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png" />
+
+  <title>login</title>
+</head>
+<body>
+  <div id="wrap">
+    <form action="#" method="post">
+      <fieldset class="login">
+        <legend class="hidden">login만들기</legend>
+        <input type="text" id="Yname" name="Yname" value=""
+               placeholder="ID 입력하기" required="required" />
+               <label for="Yname" class="hidden">사용자의 ID를 입력하세요.</label>
+        <input type="password" id="Ypw" name="Ypw" value=""
+               placeholder="PW 입력하기" required="required" />
+               <label for="Ypw" class="hidden"></label>
+        <input type="submit" id="ok" value="login">
+          <input type="checkbox" id="remem" name="remem" value="" />
+          <label for="remem">ID 기억하기</label>
+        
+
+        <div class="find">
+          <span class="find_id">
+            <a href="#">ID 찾기</a>
+           &#124;
+            <a href="#">비밀번호 찾기</a>
+          </span>
+        </div>
+      </fieldset>
+
+
+      <div class="close">
+        <a href="#">닫기
+            <i class="fas fa-caret-up"></i>
+        </a>
+      </div>
+    </form>
+  </div>
+
+  <!--javascript-->
+  <script src="../js/base/jquery-3.3.1.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+  <script src="../js/src/login_01.js"></script>
+</body>
+</html>

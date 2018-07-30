@@ -1,0 +1,103 @@
+/* 20180627_test_cake.css */
+
+#miniProduct {
+  position: relative;
+  margin: auto; margin-top: 100px;
+  width: 400px; height: 300px;
+}
+
+#btn {
+  position: absolute; top: 50%; margin-top: -50px;
+  width: 100%; height: 0;
+}
+
+
+#btn > button {
+   width: 100px; height: 100px; background-color: #af0;
+}
+
+#btn > .l_btn {
+  float: left;
+}
+
+#btn > .r_btn {
+  float: right;
+}
+
+/* ------------------------------------------------ */
+
+.indicator {
+  position: absolute; bottom: -60px; left: 50%; margin-left: -100px;
+  width: 200px; height: 30px;
+  box-sizing: border-box; padding: 2px 5px; 
+  border-radius: 1rem; background-color: #5fc;
+}
+
+.indicator > li {
+  float: left; width: 26px; height: 26px; margin-right: 15px;
+}
+
+.indicator > li:last-child {
+  margin-right: 0;
+}
+
+.indicator > li > a {
+  display: block; width: 100%; height: 100%;
+  border-radius: 2rem; background-color: #ccc;
+}
+
+.indicator > li:hover > a {
+  background-color: #0ff;
+}
+
+.indicator > li.active > a {
+  background-color: #0df;
+}
+
+.indicator > li > a > span {
+  display: block; width: 0; height: 0; overflow: hidden;
+}
+
+
+.product_wrap {
+  overflow: hidden;
+  width: 100%; height: 100%;
+}
+
+/* ------------------------------------------------ */
+
+.product {
+  width: 500%; height: 100%;
+}
+
+.product > li {
+  float: left; width: 20%; height: 100%;
+}
+
+.product > li > a {
+  display: block; width: 100%; height: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+
+.product > li > a > span {
+  display: block; width: 0; height: 0; overflow: hidden;
+}
+
+.cake_01 > a {
+  background-image: url(../../img/cake_1.png);
+}
+.cake_02 > a {
+  background-image: url(../../img/cake_2.png);
+}
+.cake_03 > a {
+  background-image: url(../../img/cake_3.png);
+}
+.cake_04 > a {
+  background-image: url(../../img/cake_4.png);
+}
+.cake_05 > a {
+  background-image: url(../../img/cake_5.png);
+}

@@ -1,0 +1,122 @@
+/* jquery_indicator_02.css */
+
+#wrap {
+  width: 100%; height: auto;
+}
+
+  h1{
+    padding: 1rem; background-color: #357; color:#fff; text-align: center;
+  }
+
+  .slide_banner {
+    position: relative;
+    margin:3rem auto; width: 400px; height: 300px; 
+  }
+
+
+/* ---------------------------------------------------------- */
+
+  .slide_btn{
+    position: absolute; top: 50%; left: 50%;
+    margin-top:-50px; margin-left:-270px;
+    width: 540px; height: 0; background-color: #afc;
+  }
+
+  .slide_btn > button {
+    width: 100px; height: 100px; background-color: rgba(50,50,50,0.4); border-radius:100%;
+  }
+
+  .slide_btn > button > i {
+    font-style: 3rem;
+  }
+
+  .slide_btn > button:hover,
+  .slide_btn > button:focus {
+    background-color: rgba(50,50,50,0.8); color: #fff; font-weight: bold;
+  }
+  .prev_btn {
+    float: left;
+  }
+
+  .next_btn {
+    float: right;
+  }
+
+/* ---------------------------------------------------------- */
+
+.indicator {
+  position: absolute; bottom: -50px; left: 50%; margin-left: -100px;
+  padding: 2px 3px; box-sizing: border-box;
+  border-radius: 2rem;
+  width: 200px; height: 30px; background-color: #888;
+}
+
+.indicator > li {
+  float: left;
+  width: 26px; height: 26px; margin-right: 16px;
+}
+
+.indicator > li > a {
+  border-radius: 2rem; background-color: #fff;
+  display: block; width: 100%; height: 100%;
+}
+
+.indicator > li:hover > a {
+  background-color: #0f0;
+}
+
+.indicator > li.active > a {
+  background-color: #ff0;
+}
+
+.indicator > li:last-child {
+  margin-right: 0;
+}
+
+.indicator > li > a > span {
+  display: block; width: 0; height: 0; overflow: hidden;
+}
+
+/* ---------------------------------------------------------- */
+
+.product_wrap {
+  overflow: hidden;
+  width: 400px; height: 300px;
+}
+
+.product {
+  width: 500%; height: 100%;
+}
+
+.product > li {
+  float: left;
+  width: 20%; height: 100%; 
+}
+
+.product > li > a {
+  display: block; width: 100%; height: 100%;
+  background-repeat: no-repeat;
+  background-position: center; 
+  -webkit-background-size: contain;
+  background-size: contain;
+}
+
+.product > li > a > span {
+  display: block; width: 0; height: 0; overflow: hidden;
+}
+
+.cake_01 > a {
+  background-image: url(../../img/cake_1.png);
+}
+.cake_02 > a {
+  background-image: url(../../img/cake_2.png);
+}
+.cake_03 > a {
+  background-image: url(../../img/cake_3.png);
+}
+.cake_04 > a {
+  background-image: url(../../img/cake_4.png);
+}
+.cake_05 > a {
+  background-image: url(../../img/cake_5.png);
+}

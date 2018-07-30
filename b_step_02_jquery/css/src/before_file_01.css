@@ -1,0 +1,8 @@
+/* before_file_01.css */
+
+#wrap {width: 100%; height: auto; background-color: #cca;}
+#headBox {width: 100%; height: 100px; background-color: #0ac;}
+#adBox {width: 100%; height: 200px; background-color: #733;}
+#contentBox {width: 100%; height: 300px; background-color: #a7a;}
+#footBox {width: 100%; height: 50px; background-color: #555;}
+h2 {color: #fff;}

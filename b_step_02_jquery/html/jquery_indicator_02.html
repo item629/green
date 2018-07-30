@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<!-- jquery_indicator_02.html-->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- meta:vp -->
+  <meta name="viewport" 
+  content="width=device-width, user-scalable=no, 
+  initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!-- ** import css-->
+  <!-- 합쳐지고 최소화된 최신 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <!-- 부가적인 테마 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+  <!-- Reset -->
+  <link rel="stylesheet" href="../css/base/reset.css" />
+  <link rel="stylesheet" href="../css/src/jquery_indicator_02.css" />
+  <!--favicon-->
+  <link rel="apple-touch-icon" href="../img/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png" />
+
+  <title>jquery indicator 02</title>
+</head>
+<body>
+  <div id="wrap">
+    <h1>20180627</h1>
+    <div id="miniProduct" class="slide_banner">
+      <div class="slide_btn">
+       <button type="button" class="prev_btn">
+        <i class="glyphicon glyphicon-chevron-left"></i> 
+        <span class="hidden">slide button</span>
+      </button>
+       <button type="button" class="next_btn">
+        <i class="glyphicon glyphicon-chevron-right"></i>
+        <span class="hidden">slide button</span></button>
+      </div>                   <!-- // #slide_btn -->
+
+
+      <ul class="indicator">
+        <li class="active">
+          <a href="#"><span>제품 01</span></a>
+        </li>
+        <li>
+          <a href="#"><span>제품 02</span></a>
+        </li>
+        <li>
+          <a href="#"><span>제품 03</span></a>
+        </li>
+        <li>
+          <a href="#"><span>제품 04</span></a>
+        </li>
+        <li>
+          <a href="#"><span>제품 05</span></a>
+        </li>
+      </ul>                    <!-- // #indicator -->
+
+
+      <div class="product_wrap">
+        <ul class="product">
+          <li class="cake_01">
+            <a href="#"><span>상품설명 01</span></a>
+          </li>
+          <li class="cake_02">
+            <a href="#"><span>상품설명 02</span></a>
+          </li>
+          <li class="cake_03">
+            <a href="#"><span>상품설명 03</span></a>
+          </li>
+          <li class="cake_04">
+            <a href="#"><span>상품설명 04</span></a>
+          </li>
+          <li class="cake_05">
+            <a href="#"><span>상품설명 05</span></a>
+          </li>
+        </ul>
+      </div>                   <!-- // #product -->
+
+
+    </div>
+    
+  </div>
+
+  <!--javascript-->
+  <script src="../js/base/jquery-3.3.1.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+  <!-- BootStrapk -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="../js/src/jquery_indicator_02.js"></script>
+</body>
+</html>

@@ -1,0 +1,10 @@
+/* jquery_basic_02.css */
+
+.pend {
+  background-color: #f6f; padding: 1rem;
+}
+
+pend > li {
+  color: fff;
+}
+

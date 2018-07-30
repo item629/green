@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<!-- jquery_indicator_03.html-->
+<html lang="ko-KR">
+<head>
+  <meta charset="UTF-8" />
+  <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+  <!-- meta:vp -->
+  <meta name="viewport" 
+  content="width=device-width, user-scalable=no, 
+  initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+  <!--import css-->
+  <!-- CDN으로 불러올 때 합쳐지고 최소화된 최신 CSS -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap.min.css">
+  <!-- 부가적인 테마 -->
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/css/bootstrap-theme.min.css">
+
+  <!-- 다운로드 후 불러올 때 -->
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap-theme.min.css" />
+  <link rel="stylesheet" href="../bootstrap/css/bootstrap.min.css" />
+
+  <link rel="stylesheet" href="../css/base/reset.css" />
+  <link rel="stylesheet" href="../css/src/jquery_indicator_03.css" />
+  <!--favicon-->
+  <link rel="apple-touch-icon" href="../img/favicon.png" />
+  <link rel="shortcut icon" type="image/x-icon" href="../img/favicon.png" />
+
+  <title>20170628</title>
+</head>
+<body>
+  <div id="wrap">
+    <header id="headBox">
+      <h1>
+        <a href="#">사이트 이름</a>
+      </h1>
+      <nav id="gnb">
+        <h2 class="hidden">네비게이션 영역</h2>
+        <ul>
+          <li>
+            <a href="#">menu1</a>
+            <ol>
+              <li><a href="#">sub menu 01</a></li>
+              <li><a href="#">sub menu 02</a></li>
+              <li><a href="#">sub menu 03</a></li>
+            </ol>
+          </li>     <!-- // #gnb_menu_01 -->
+          <li>
+            <a href="#">menu2</a>
+            <ol>
+              <li><a href="#">sub menu 01</a></li>
+              <li><a href="#">sub menu 02</a></li>
+              <li><a href="#">sub menu 03</a></li>
+              <li><a href="#">sub menu 04</a></li>
+              <li><a href="#">sub menu 05</a></li>
+            </ol>
+          </li>     <!-- // #gnb_menu_02 -->
+          <li>
+            <a href="#">menu3</a>
+            <ol>
+              <li><a href="#">sub menu 01</a></li>
+              <li><a href="#">sub menu 02</a></li>
+              <li><a href="#">sub menu 03</a></li>
+              <li><a href="#">sub menu 04</a></li>
+              <li><a href="#">sub menu 04</a></li>
+              <li><a href="#">sub menu 05</a></li>
+            </ol>
+          </li>     <!-- // #gnb_menu_03 -->
+          <li>
+            <a href="#">menu4</a>
+            <ol>
+              <li><a href="#">sub menu 01</a></li>
+              <li><a href="#">sub menu 02</a></li>
+            </ol>
+          </li> <!-- // # gnb_menu_04 -->
+        </ul>
+      </nav>
+    </header>
+    <div class="adbanner">
+      <div class="indicator_wrap hidden_wrap">
+        <ul class="indicator">
+          <li class="active">
+            <a href="#"><span>버튼01</span></a>
+          </li>
+          <li>
+            <a href="#"><span>버튼02</span></a>
+          </li>
+          <li>
+            <a href="#"><span>버튼03</span></a>
+          </li>
+          <li>
+            <a href="#"><span>버튼04</span></a>
+          </li>
+          <li>
+            <a href="#"><span>버튼05</span></a>
+          </li>
+        </ul>                   <!-- // #indicator -->
+        <div class="slide_btn">
+          <button type="button" class="prev_btn">
+            <i class="glyphicon glyphicon-chevron-left"></i>
+            <span>이전</span>
+          </button>
+          <button type="button" class="next_btn">
+            <i class="glyphicon glyphicon-chevron-right"></i>
+            <span>다음</span>
+          </button>
+        </div>                  <!-- // #slide_btn -->
+      </div>                    <!-- // #indicator_wrap -->
+      <div class="banner_wrap">
+        <ul class="banner">
+          <li class="banner_01">
+            <a href="#">바로가기</a>
+          </li>
+          <li class="banner_02">
+            <a href="#">바로가기</a>
+          </li>
+          <li class="banner_03">
+            <a href="#">바로가기</a>
+          </li>
+          <li class="banner_04">
+            <a href="#">바로가기</a>
+          </li>
+          <li class="banner_05">
+            <a href="#">바로가기</a>
+          </li>
+        </ul>                   <!-- // #banner -->
+      </div>                    <!-- // #banner_wrap -->
+    </div>                      <!-- // #adbanner -->
+    <div class="contentBox"></div>
+    <div class="top_btn">
+      <a href="#">
+        <i class="glyphicon glyphicon-chevron-up"></i>
+        <span>상단으로</span>
+      </a>
+    </div>
+  </div>
+
+  <!--javascript-->
+  <script src="../js/base/jquery-3.3.1.min.js"></script>
+  <script src="../js/base/jquery-ui.min.js"></script>
+    <!-- 다운로드 후 BootStrapk -->
+  <script src="../bootstrap/js/bootstrap.min.js"></script>
+    <!-- CDN BootStrapk -->
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.2/js/bootstrap.min.js"></script>
+  <script src="../js/src/jquery_indicator_03.js"></script>
+  <script src="../js/src/jquery_indicator_03_1.js"></script>
+</body>
+</html>

@@ -1,0 +1,68 @@
+/* jquery_indicator_01.css */
+
+
+
+#miniProduct {
+  position: relative; margin: auto;
+  width: 510px; height: 260px; 
+  background-image: url(../../img/wood.jpg);
+  background-size: cover;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -ms-background-size: cover;
+  -o-background-size: cover;
+  background-repeat: no-repeat;}
+
+/* -------------------------- */
+.indicator {
+  position: absolute; left: 50%; bottom: -60px; margin-left: -71px;
+  width: 142px; height: 30px;}
+
+.indicator > li {
+  float: left;
+  width: 30px; height: 30px; margin-right: 26px;}
+
+.indicator > li:last-child {
+  margin-right: 0;}
+
+.indicator a {
+  width: 100%; height: 100%; display: block;
+  border-radius: 1rem; background-color: #888;}
+
+.indicator > li:active > a {
+  background-color: #555;}  
+
+.indicator span {
+  display: block; width: 0; height: 0; overflow: hidden;}
+
+.indicator > li > a:focus {background-color: #fa0;}
+.indicator > li > a:hover {background-color: #aa0;}
+
+/* ------------------------- */
+.product {
+  width: 300%; height: 100%;}
+
+.product > li {
+  float: left;
+  box-sizing: border-box; padding: 30px;
+  width: 33.333333%; height: 100%;}
+
+.product > li > a {
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  transition: all 300ms ease;
+  width: 100%; height: 100%; display: block;}
+
+.product span {
+display: block; width: 0; height: 0; overflow: hidden;}
+
+.product > li:hover {
+  transform: scale(1.2) rotate(-3deg);}
+
+.pr_1 > a {
+  background-image: url(../../img/slide_01.png);}
+.pr_2 > a {
+  background-image: url(../../img/slide_02.png);}
+.pr_3 > a {
+  background-image: url(../../img/slide_03.png);}

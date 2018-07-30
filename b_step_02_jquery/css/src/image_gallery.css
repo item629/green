@@ -1,0 +1,50 @@
+/* image_gallery.css */
+
+#wrap {
+  padding: 3rem; background-color: #ddc;
+}
+
+h1 {
+  text-align: center; margin-bottom: 1rem;
+}
+
+#gallery {
+  border-top: 2px solid #777; padding: 1rem;
+}
+
+.gall_box {
+  width: 100%; height: 400px; background-color: #acf;
+  margin-bottom: 2rem; border-bottom: 1px solid #777;
+  box-sizing: border-box; padding-top: 350px;
+}
+
+.gall_box > a {
+  display: block; width: 100%; height: 100%;
+  box-sizing: border-box; padding: 0.5rem;
+}
+
+.list {
+  width: 100%; height: 100px; border-top: 1px solid #ccc;
+}
+
+.list > ul {
+  width: 100%; height: 100%;
+}
+
+.list > ul > li {
+  width: 100px; height: 100px; margin: 1rem; float: left;
+  background-color: #cca; overflow: hidden;
+}
+
+.list > ul > li > a {
+  display: block; width: 100%; height: 100%;
+}
+
+.list > ul > li > a > img {
+  height: 100%; transition: all 500ms;
+}
+
+.list > ul > li > a:hover > img, 
+.list > ul > li > a:focus > img {
+  height: 120%;
+}
